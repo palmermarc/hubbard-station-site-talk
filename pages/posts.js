@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import axios from 'axios'
-import Header from '../components/Header'
+import SiteHeader from '../components/SiteHeader'
+import { Container, Header } from 'semantic-ui-react'
 import ListenLiveBar from '../components/ListenLiveBar'
-import TitleBar from '../components/TitleBar'
-
 import "../style.scss"
 
 export default class extends Component {
@@ -23,15 +22,11 @@ export default class extends Component {
   render() {
     return (
       <Fragment>
-        <Header/>
-        <ListenLiveBar/>
-        <div className="wrap">
-          <TitleBar pageTitle="Last 10 Blog Posts"></TitleBar>
-          
-        </div>
-        
-      
-        
+        <SiteHeader />
+        <ListenLiveBar />
+        <Container text style={{ marginTop: '7em' }}className="wrap">
+          <Header as='h1' attached='top'>Last 10 Blog Posts</Header>
+        </Container>
       </Fragment>
     )
   }
