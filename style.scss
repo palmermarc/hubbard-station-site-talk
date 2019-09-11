@@ -33,6 +33,20 @@ footer {
   background-color: #444;
 }
 
+.page-title {
+  background-color: #555;
+  margin-top: 2em;
+  padding: 10px;
+
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+}
+.page-content {
+  background-color: #fff;
+}
+
 .hll-livebar.talk{
   background-color: #333;
   border-bottom: 2px solid #444;
