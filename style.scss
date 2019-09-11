@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.101espn.com/wp-content/uploads/2019/05/101sports-bg_BLUEHOCKEY.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header {
+  background-color: #ef3e33;
+}
+nav {
+  float: right;
+  ul {
+    margin: 0;
+    padding: 10px;
+    li {
+      display: inline-block;
+    }
+  }
+}
+#mainlogo {
+  height: auto;
+  padding: 20px 0;
+  width: 300px;
+}
+.wrap {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+footer {
+  background-color: #444;
+}
+
+.hll-livebar.talk{
+  background-color: #333;
+  border-bottom: 2px solid #444;
+
+  .hide {
+    display: none !important;
+  }
+
+  #hll-actions {
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+  }
+
+  #hll-actions:after {
+    display: block;
+    content:'';
+    clear:both;
+  }
+
+  .talk #hll-actions {
+    background-color: #444;
+  }
+
+  ul {
+    margin:0;
+    padding:0 1em;
+    width:100%;
+    box-sizing:border-box;
+  }
+
+  ul > li {
+    list-style:none;
+    float:left;
+    height: 66px;
+  }
+  ul > li > a {
+    color:silver;
+    display:block;
+    padding:1em 0;
+    text-decoration: none;
+    line-height:em(40);
+    position:relative;
+  }
+
+  .svg-icon {
+    display:inline-block;
+    vertical-align: middle;
+  }
+
+  .svg-icon svg,
+  .svg-icon i {
+    display:inline-block;
+    vertical-align: middle;
+  }
+
+  .svg-icon i {
+    display:none;
+  }
+
+  li.play-button .svg-icon svg {
+    height:40px;
+    width:40px;
+    line-height:40px;
+  }
+
+  li.album-art {
+    padding-left: 0.25em;
+  }
+
+  li.album-art a {
+    padding: 0.5em 0;
+  }
+
+  li.album-art img{
+    max-height: 50px;
+    border: 1px solid white;
+  }
+
+  li.track {
+    padding-left: 0.75em;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    width: 60%;
+  }
+
+  li.track a {
+    padding-top: 1em;
+  }
+
+  li.track.has-sponsor a {
+    padding-top: 0.75em;
+  }
+
+  li.track .onair-title-coming {
+    color: #999;
+  }
+
+  li.track .onair {
+    display: block;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  li.track .onair-details {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  li.track .onair-details .details {
+    color: white;
+    font-weight: bold;
+  }
+
+  li.track .onair-details .time {
+    color: white;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+
+  li.track .sponsor {
+    color: #6A6A6A;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  li.app-links {
+    float: right;
+  }
+
+  li.app-links a {
+    display: inline;
+  }
+
+  li.app-links img {
+    max-height: 38px;
+    padding-top: 1em;
+  }
+
+  .show {
+    display: inherit;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  @media (max-width:1000px) {
+    li.track {
+      width: 50%;
+    }
+  }
+
+  @media (max-width:800px) {
+    li.track {
+      width: 40%;
+    }
+  }
+
+  @media (max-width:700px) {
+    li.track {
+      width: 70%;
+    }
+    li.app-links {
+      display: none;
+    }
+    li.track .sponsor {
+      display: none;
+    }
+  }
+
+  @media (max-width:450px) {
+    li.track {
+      width: 60%;
+    }
+  }
+}

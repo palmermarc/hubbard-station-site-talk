@@ -1,0 +1,31 @@
+{
+  "name": "wxos",
+  "version": "1.0.0",
+  "description": "The Pride of St. Louis Sports",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palmermarc/hubbard-station-react.git"
+  },
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080"
+  },
+  "keywords": [
+    "wxos",
+    "101espn",
+    "espn",
+    "hubbard"
+  ],
+  "author": "Marc Palmer <mapalmer@hbi.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "next": "^9.0.5",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

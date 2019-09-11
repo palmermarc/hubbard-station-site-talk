@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ef3e33;
+}
+nav {
+  background-color: #444;
+  border-bottom: 2px solid #333;
+}
+nav iframe {
+  max-height: 66px;
+}
+.wrap {
+  max-width: 1100px;
+}
+footer {
+  background-color: #444;
+}
